@@ -17,8 +17,8 @@ class Header extends React.Component {
                     <Col xs={12} sm={8} lg={8}>
                         <ul id="App-main-nav">
                             <li><Link to="/">Home</Link></li>
-                            <li><Link to="/">Projekty</Link></li>
-                            <li><Link to="/">O mnie</Link></li>
+                            <li><Link to="projects">Projekty</Link></li>
+                            <li><Link to="about">O mnie</Link></li>
                         </ul>
                     </Col>
                 </Row>
