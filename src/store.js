@@ -1,7 +1,13 @@
-import { createStore , applyMiddleware } from 'redux';
+import { createStore , combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 
-import reducer from './reducer';
+import appReducer from './reducer';
+import mainMenuReducer from './header/reducer'
+
+const reducer = combineReducers ({
+    reducer: appReducer,
+    mainMenu: mainMenuReducer
+})
 
 const store = createStore(
     reducer,

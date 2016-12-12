@@ -1,5 +1,9 @@
 .App-footer {
     padding: 15px 10px;
     background-color: #dddddd;
-    width:100%;
+    text-align: center
 }
+
+.footer-copy {
+	color: #666666
+	}

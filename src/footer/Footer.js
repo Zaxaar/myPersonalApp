@@ -7,8 +7,8 @@ class Footer extends React.Component {
         return (
             <Grid className="App-footer" fluid>
                 <Row>
-                    <Col xs="12" sm="12" lg="12">
-                        <h4>Current Date {new Date().getFullYear()} </h4>
+                    <Col className="footer-copy" xs={12} sm={12} lg={12}>
+                        <h5>Copyright &copy; {new Date().getFullYear()} </h5>
                     </Col>
                 </Row>
             </Grid>

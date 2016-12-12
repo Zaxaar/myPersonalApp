@@ -1,0 +1,1 @@
+export const ACTIVATE_MENU_ITEM = 'header/ACTIVATE_MENU_ITEM'

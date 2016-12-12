@@ -10,9 +10,10 @@ class Projects extends React.Component {
                     <Col xs={12} sm={6} lg={6}>
                         <h2>Projekty</h2>
                         <p> Strona w budowie. Trzeba sprawdzić działanie znaków.  </p>
-                        <Button bsStyle="success" onClick={()=>alert("hello!")}>Naciśnij przycisk</Button>
+                        <Button bsStyle="success" onClick={()=>console.log("Projects Button!")}>Naciśnij przycisk</Button>
                     </Col>
-                </Row>
+				
+				</Row>
             </Grid>
         );
     }

@@ -1,8 +1,32 @@
-.Home {
+.Home-headline {
+	min-height:350px;
     padding: 25px;
-    background-color: #f4f4f4;
+	background:#FFF url(../../images/home-bg-image.png) center top no-repeat ;
+	background-height:100%;
 }
 
 .Home-headline-text {
+	margin-top:50px;
     padding: 15px;
+	text-align:center;
+}
+
+.Home-technology-tags {
+	text-align:center;
+	margin: 20px 10px; 
+}
+
+.Home-tag-block {
+	margin-bottom:10px;
+}
+
+.Home-tag-block img {
+	margin-top:10px;
+	max-height: 75px;
+	opacity: 0.3;
+	transition:all linear 0.5s;
+}
+
+.Home-tag-block img:hover {
+	opacity: 0.6;	
 }
