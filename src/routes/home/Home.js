@@ -10,8 +10,8 @@ class Home extends React.Component {
             <Grid className="Home-headline" fluid>
                 <Row>
                     <Col className="Home-headline-text" xs={12} sm={12} lg={12}>
-                        <h2>Home</h2>
-                        <p>Strona w budowie. Trzeba sprawdzić działanie polskich znaków.</p>
+                        <h2>Hello my friends</h2>
+                        <p>Strona w budowie. Zapraszam niebawem.</p>
                         <Button bsStyle="danger" onClick={()=>console.log("Home Button!")} >Naciśnij</Button>
                     </Col>
                 </Row>
