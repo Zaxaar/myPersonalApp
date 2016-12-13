@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, IndexRoute, browserHistory } from 'react-router';
+import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 import { Provider } from 'react-redux';
 import store from './store'
 
@@ -15,7 +15,7 @@ import './index.css';
 
 ReactDOM.render(
     <Provider store={store}>
-        <Router history={browserHistory}>
+        <Router history={hashHistory}>
             <Route path="/" component={App}>
                 <IndexRoute component={Home} />
                 <Route path="projects" component={Projects} />
