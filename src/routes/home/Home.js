@@ -22,7 +22,7 @@ class Home extends React.Component {
                     <Col className="Home-tag-block" xs={12} sm={4} lg={4}>
 						<img src={tagImage} alt=""/>
                         <h4>Budowa stron www</h4>
-                        <p>html / css / bootstrap </p>
+                        <p>Html / Css / Bootstrap </p>
                     </Col>
 					<Col className="Home-tag-block" xs={12} sm={4} lg={4}>
 						<img src={tagImage} alt=""/>

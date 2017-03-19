@@ -2,6 +2,8 @@ import React from 'react';
 import {Grid, Row, Col, Button} from 'react-bootstrap';
 import './Projects.css';
 
+import YouTubeComponent from './yt-component/YouTubeComponent';
+
 class Projects extends React.Component {
     render() {
         return (
@@ -12,8 +14,8 @@ class Projects extends React.Component {
                         <p> Strona w budowie. Trzeba sprawdzić działanie znaków.  </p>
                         <Button bsStyle="success" onClick={()=>console.log("Projects Button!")}>Naciśnij przycisk</Button>
                     </Col>
-				
-				</Row>
+				        </Row>
+                <YouTubeComponent />
             </Grid>
         );
     }
